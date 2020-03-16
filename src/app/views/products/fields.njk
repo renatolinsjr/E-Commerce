@@ -12,7 +12,7 @@
 </div>
 
 <div class="item">
-    <div>Nome</div>
+    <div>Título</div>
     <div>
         <input 
             type="text" 
@@ -42,7 +42,7 @@
             name="price"
             placeholder="Preço do Produto"
             value="{{ product.price }}"
-            {# Farei uma máscara de Dinheiro em reais #}
+            onkeydown="Mask.apply(this, 'formatBRL')"
         >
     </div>
     {% if product.old_price %}}

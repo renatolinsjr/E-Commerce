@@ -143,6 +143,7 @@ form .item input[type="number"],
 form .item textarea,
 form .item select {
     width: 100%;
+    max-width: 100%;
     padding: 8px 16px;
     box-shadow: 2px 2px 2px -4px rgba(63, 63, 63, .5);
     border: 1px solid #efefef;
